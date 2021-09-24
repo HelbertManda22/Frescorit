@@ -1,0 +1,67 @@
+body {
+
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+    
+    color: #f1f1f1;
+	background: url(wolf1.png)  ;
+
+}
+
+main {
+
+	background: #071a26;
+	padding: 40px 40px;
+    margin-top: 40px;
+    border-radius: 20px;
+}
+
+.supressao  {
+	
+	text-align: center;
+
+}
+
+.block {
+
+	text-align: center;
+} 
+
+nav {
+	margin: 0;
+	box-sizing: border-box;
+	height: 50px;
+	background-color: #071a26;
+	overflow: hidden;
+	border-radius: 40px;
+
+}
+
+nav .BAIXAR {
+	color: burlywood;
+	float: left;
+	display: block;
+	padding: 16px 41px;
+	user-select: none;
+	cursor: pointer;
+	transition: background 1s;
+}
+
+nav .BAIXAR:hover {
+	background: #042d47;
+}
+
+nav a {
+	color: burlywood;
+	float: left;
+	text-decoration: none;
+	display: block;
+	padding: 16px 93px;
+}
+nav a:hover { 
+	transition: 1s;
+	background-color: #042d47;
+
+}
+
